@@ -13,3 +13,7 @@ a.center {
     display: block;
     margin: 25px;
 }
+
+.dark {
+    background-color: #161616;
+}
