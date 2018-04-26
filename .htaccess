@@ -1,0 +1,23 @@
+Options -MultiViews
+
+AuthType Basic
+AuthName "Restricted Content"
+AuthUserFile /etc/apache2/.htpasswd
+Require valid-user
+
+ErrorDocument 403 /special/403/403.html
+ErrorDocument 404 /special/404/404.html
+
+RewriteEngine On
+
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
+RewriteCond %{DOCUMENT_ROOT}/special/Maintenance/maintenance.html -f
+RewriteCond %{SCRIPT_FILENAME} !special/Maintenance/maintenance.html
+RewriteRule ^.*$ /special/Maintenance/maintenance.html [R=503,L]
+ErrorDocument 503 /special/Maintenance/maintenance.html
