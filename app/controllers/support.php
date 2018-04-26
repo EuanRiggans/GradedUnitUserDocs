@@ -24,5 +24,10 @@ class support extends controller
         $this->view('support/template', 'view-player-skills');
     }
 
+    public function viewskillprogress()
+    {
+        $this->view('support/template', 'view-skill-progress');
+    }
+
 
 }
