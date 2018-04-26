@@ -8,17 +8,7 @@
     <link href="../../../static/css/style.css" rel="stylesheet">
 </head>
 <body>
-<!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark">-->
-<!--    <div class="container">-->
-<!--        <a class="navbar-brand" href="#">Simply Rugby User Support Documentation</a>-->
-<!--    </div>-->
-<!--</nav>-->
 <div class="container">
-    <!--    <div class="card text-white bg-secondary my-4 text-center">-->
-    <!--        <div class="card-body">-->
-    <!--            <p class="text-white m-0">Scroll down to find the support documentation you require</p>-->
-    <!--        </div>-->
-    <!--    </div>-->
     <br/>
     <div class="jumbotron">
         <h1>Simply Rugby User Support</h1>
