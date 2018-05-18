@@ -23,7 +23,7 @@
                         system.</p>
                 </div>
                 <div class="card-footer">
-                    <a href="/support/login" class="btn btn-primary">Find support</a>
+                    <a href="https://<?php echo $_SERVER['SERVER_NAME'] . '/support/login/view'; ?>" class="btn btn-primary">Find support</a>
                 </div>
             </div>
         </div>
@@ -35,7 +35,7 @@
                         details for.</p>
                 </div>
                 <div class="card-footer">
-                    <a href="/support/selectsquad" class="btn btn-primary">Find support</a>
+                    <a href="https://<?php echo $_SERVER['SERVER_NAME'] . '/support/selectsquad/view'; ?>" class="btn btn-primary">Find support</a>
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@
                     <p class="card-text">Find support relating to viewing a players skills.</p>
                 </div>
                 <div class="card-footer">
-                    <a href="/support/viewplayerskills" class="btn btn-primary">Find support</a>
+                    <a href="https://<?php echo $_SERVER['SERVER_NAME'] . '/support/viewplayerskills/view'; ?>" class="btn btn-primary">Find support</a>
                 </div>
             </div>
         </div>
@@ -59,7 +59,7 @@
                     <p class="card-text">Find support relating to viewing a players current skill progress.</p>
                 </div>
                 <div class="card-footer">
-                    <a href="/support/viewskillprogress" class="btn btn-primary">Find support</a>
+                    <a href="https://<?php echo $_SERVER['SERVER_NAME'] . '/support/viewskillprogress/view'; ?>" class="btn btn-primary">Find support</a>
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@
                     <p class="card-text">Find support relating to viewing the notes for a player.</p>
                 </div>
                 <div class="card-footer">
-                    <a href="/support/viewplayernotes" class="btn btn-primary">Find support</a>
+                    <a href="https://<?php echo $_SERVER['SERVER_NAME'] . '/support/viewplayernotes/view'; ?>" class="btn btn-primary">Find support</a>
                 </div>
             </div>
         </div>
@@ -81,7 +81,7 @@
                     <p class="card-text">Find support relating to how to edit a players current skill progress.</p>
                 </div>
                 <div class="card-footer">
-                    <a href="/support/editskillprogress" class="btn btn-primary">Find support</a>
+                    <a href="https://<?php echo $_SERVER['SERVER_NAME'] . '/support/editskillprogress/view'; ?>" class="btn btn-primary">Find support</a>
                 </div>
             </div>
         </div>
@@ -94,7 +94,7 @@
                     <p class="card-text">Find support relating to how to add new notes for a player.</p>
                 </div>
                 <div class="card-footer">
-                    <a href="/support/addnotes" class="btn btn-primary">Find support</a>
+                    <a href="https://<?php echo $_SERVER['SERVER_NAME'] . '/support/addnotes/view'; ?>" class="btn btn-primary">Find support</a>
                 </div>
             </div>
         </div>
@@ -105,7 +105,7 @@
                     <p class="card-text">Find support relating to deleting a players notes.</p>
                 </div>
                 <div class="card-footer">
-                    <a href="/support/deletenotes" class="btn btn-primary">Find support</a>
+                    <a href="https://<?php echo $_SERVER['SERVER_NAME'] . '/support/deletenotes/view'; ?>" class="btn btn-primary">Find support</a>
                 </div>
             </div>
         </div>
