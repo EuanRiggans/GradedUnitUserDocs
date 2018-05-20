@@ -24,5 +24,30 @@ class support extends controller
         $this->view('support/template', 'view-player-skills');
     }
 
+    public function viewskillprogress()
+    {
+        $this->view('support/template', 'view-skill-progress');
+    }
+
+    public function viewplayernotes()
+    {
+        $this->view('support/template', 'view-player-notes');
+    }
+
+    public function editskillprogress()
+    {
+        $this->view('support/template', 'edit-skill-progress');
+    }
+
+    public function addnotes()
+    {
+        $this->view('support/template', 'add-notes');
+    }
+
+    public function deletenotes()
+    {
+        $this->view('support/template', 'delete-notes');
+    }
+
 
 }

@@ -3,7 +3,7 @@
 <h4 class="section-heading">Prerequisites</h4>
 <p>In order to select a squad to manage will need the following:</p>
 <ul>
-    <li>You need to be <a href="https://<?php echo $_SERVER['SERVER_NAME'] . '/support/login'; ?>">logged in</a> to the
+    <li>You need to be <a href="https://<?php echo $_SERVER['SERVER_NAME'] . '/support/login/view'; ?>">logged in</a> to the
         skill tracker
     </li>
     <li>You must be the register coach for a squad</li>
@@ -14,7 +14,7 @@
 <p>If you are only coaching one squad then upon logging into the skill tracking system, you will automatically be taken
     to that squads management page.</p>
 <p>If you are coaching more than one squad then after successfully <a
-            href="https://<?php echo $_SERVER['SERVER_NAME'] . '/support/login'; ?>">logging in</a> a popup will appear
+            href="https://<?php echo $_SERVER['SERVER_NAME'] . '/support/login/view'; ?>">logging in</a> a popup will appear
     asking you to enter the name of the squad you wish to manage. In that popup type the name of the squad and you will
     be taken to that squads coaching home.</p>
 <p>Below you can see an example of the select squad popup filled out successfully.</p>

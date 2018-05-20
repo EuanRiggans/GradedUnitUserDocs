@@ -1,5 +1,6 @@
 <html>
 <head>
+    <title>Simply Rugby User Support Documentation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../../static/css/font-awesome.min.css">
     <link href="../../../static/css/bootstrap.min.css" rel="stylesheet">

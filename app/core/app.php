@@ -58,7 +58,14 @@ class App
             }
         }
 
-        $this->params = $url ? array_values($url) : [];
+        /**
+         * If url is null, then no parameters exist, otherwise assign remaining values in url to parameters
+         */
+        if($url == null) {
+            $this->params = [];
+        } else {
+            $this->params = array_values($url);
+        }
 
         call_user_func_array([$this->controller, $this->method], $this->params);
     }
