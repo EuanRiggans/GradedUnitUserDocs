@@ -41,5 +41,11 @@ class support extends controller
 
     }
 
+    public function addnotes()
+    {
+        $this->view('support/template', 'add-notes');
+
+    }
+
 
 }
