@@ -1,7 +1,7 @@
 <h2 class="section-heading">How to view a players skills</h2>
 <br/>
 <h4 class="section-heading">Prerequisites</h4>
-<p>In order to select a squad to manage will need the following:</p>
+<p>In order to view a players skills will need the following:</p>
 <ul>
     <li>You need to be <a href="https://<?php echo $_SERVER['SERVER_NAME'] . '/support/login/view'; ?>">logged in</a> to the
         skill tracker
