@@ -35,5 +35,11 @@ class support extends controller
 
     }
 
+    public function editskillprogress()
+    {
+        $this->view('support/template', 'edit-skill-progress');
+
+    }
+
 
 }
