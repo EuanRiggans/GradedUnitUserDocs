@@ -1,7 +1,7 @@
-<h2 class="section-heading">How to view a players skills</h2>
+<h2 class="section-heading">How to view a players skill progress</h2>
 <br/>
 <h4 class="section-heading">Prerequisites</h4>
-<p>In order to select a squad to manage will need the following:</p>
+<p>In order to view a players skill progress will need the following:</p>
 <ul>
     <li>You need to be <a href="https://<?php echo $_SERVER['SERVER_NAME'] . '/support/login/view'; ?>">logged in</a> to the
         skill tracker
@@ -14,7 +14,7 @@
     </li>
 </ul>
 <br/>
-<h4 class="section-heading">How to view a players skills</h4>
+<h4 class="section-heading">How to view a players skill progress</h4>
 <p>To view a players skill progress, firstly you should be on the <a href="https://<?php echo $_SERVER['SERVER_NAME'] . '/support/viewplayerskills/view'; ?>">skills view for a player</a>.</p>
 <p>It should look like this: </p>
 <a href="#">
